@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "170972245543",
+    "project_id": "publisher-53323",
+    "storage_bucket": "publisher-53323.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170972245543:android:354ab47a119c7134fd6802",
+        "android_client_info": {
+          "package_name": "com.czerny.publisher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170972245543-va5ir4pmleapqn5n498oe62v7mv0o3ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT-jhahapF9YAiKTEPlexvuhjSOqaq_qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170972245543-va5ir4pmleapqn5n498oe62v7mv0o3ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

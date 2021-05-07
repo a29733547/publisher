@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph">
+    <dialog
+        android:id="@+id/articlePage"
+        android:name="com.czerny.publisher.publish.ArticlePage"
+        android:label="ArticlePage"
+        tools:layout="@layout/dialog_publisher"/>
+
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.czerny.publisher.home.HomePage"
+        android:label="HomePage"
+        tools:layout="@layout/fragment_home_page">
+        <action
+            android:id="@+id/action_homePage_to_articlePage"
+            app:destination="@id/articlePage" />
+    </fragment>
+</navigation>
